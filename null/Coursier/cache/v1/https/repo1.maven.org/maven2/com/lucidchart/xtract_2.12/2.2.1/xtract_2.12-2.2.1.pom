@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.lucidchart</groupId>
+    <artifactId>xtract_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>Library to deserialize Xml to user types.</description>
+    <url>https://github.com/lucidsoftware/xtract</url>
+    <version>2.2.1</version>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>xtract</name>
+    <organization>
+        <name>com.lucidchart</name>
+        <url>https://github.com/lucidsoftware/xtract</url>
+    </organization>
+    <scm>
+        <url>https://github.com/lucidsoftware/xtract</url>
+        <connection>scm:git:git@github.com:lucidsoftware/xtract.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>tmccombs</id>
+            <name>Thayne McCombs</name>
+            <url>https://github.com/tmccombs</url>
+        </developer>
+        <developer>
+            <id></id>
+            <name>Andy Hurd</name>
+            <url></url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-macros_2.12</artifactId>
+            <version>[2,3)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-kernel_2.12</artifactId>
+            <version>[2,3)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-core_2.12</artifactId>
+            <version>[2,3)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-xml_2.12</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+    </dependencies>
+</project>
